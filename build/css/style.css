@@ -643,3 +643,21 @@ video {
 .hover\:underline-offset-8:hover {
   text-underline-offset: 8px;
 }
+
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+}
